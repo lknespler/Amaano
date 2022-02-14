@@ -55,23 +55,72 @@ Footer Section
     where background is added with bubbles
 ====================================================================
  ***/
+ .containerForOpen {
+    /* height: 100vh;
+    width: 100wh; */
+    /* width: 100%; */
+    /* height: auto !important; */
+    /* min-height: 100%;  */
+    
+    
+    /* max-width: 1450px; */
+    /* width: 100vh; */
+    /* width: 100%; */
+    /* height: 775px; */
+    /* max-width: 100%;
+    height: auto;
+    width: auto\9; */
+    top: 90px;
+    min-height: 525px;
+    /* z-index: -1; */
+    position: relative;
+    /* position: relative; */
+    
+    background-position:  center;
+    background-repeat: no-repeat; 
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: contain; */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/img/hero-section/bg.png',sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/img/hero-section/bg.png', sizingMethod='scale');
+    /* overflow: auto; */
+    /* width: 100%; */
+
+ }
 
  .leftTop {
+    /* text-align: center; */
+    /* z-index: 1; */
+
+    position: relative;
+    top: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
     align-content: center;
-    width: 62%;
+    width: 55%;
     height: 100%; 
     float: left;
     border-collapse: collapse; 
-  
+    /* overflow: hidden; */
 }
 
 .rightTop {
+    /* z-index: 1; */
+
+    position: relative;
+    top: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
     align-content: center;
-    width: 38%;
+    width: 26%;
     height: 100%; 
     float: right;
     border-collapse: collapse; 
-  
+    /* overflow: hidden; */
 }
 
 
@@ -166,12 +215,20 @@ Footer Section
   }
 
   .Ourmission {
-      padding: 25px;
+    margin-top: 50px;
+  }
+  .Ourmission h2 {
+      padding: 15px;
   }
 
   .Accomplish {
-    padding: 25px;
+    margin-top: 35px;
     display: inline-block;
+}
+
+.Accomplish h2{
+    padding: 35px;
+    
 }
  
   .personapics{
@@ -216,25 +273,32 @@ Footer Section
 .hero-mobile-wrap {
     max-width: 895px;
     margin: auto;
-    
+    text-align: center;
+    /* margin-right: 150px; */
 }
 
 .hero-mobile-wrap h1 {
     font-size: 44px;
     color: black;
-    margin-bottom: 20px;
+    margin-top: -80px;
+    margin-bottom: 50px;
     text-transform: capitalize;
 }
 
 .hero-mobile-wrap p {
+    /*where to edit for paragraph on left*/
     text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
 }
 
 .hero-mobiles {
+    /* width: 30%; */
     width: 30%;
     max-width: 280px;
     position: relative;
-    float: right;
+    /* float: right; */
     display: inline-block;
 }
 
