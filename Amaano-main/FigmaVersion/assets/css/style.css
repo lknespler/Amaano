@@ -6634,3 +6634,56 @@ body.hp-six {
     list-style-position: inside;
     margin-bottom: 15px;
 }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+
+.wrap {
+  text-align: center;
+  margin: 15px auto;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.wrap h1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.wrap h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.wrap div {
+  margin-top: 80px;
+  padding: 35px 0 25px 0;
+}
+
+.wrap img {
+  width: 200px;
+}
+
+.wrap .resp h4 {
+  width: 229.82px;
+  margin: 12px auto 25px auto;
+  text-align: left;
+  height: 95px;
+}
+
+.wrap .resp {
+  display: inline-block;
+  width: 299.77px;
+  height: auto;
+  text-align: left;
+  margin-right: 20px;
+  background-color: #e1e3f7;
+  text-align: center;
+  border-radius: 20px;
+  align-content: center;
+}
