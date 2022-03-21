@@ -103,9 +103,13 @@
         <section class="download-page another-page text-center pt-90 pb-150">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 m-4"><video width="200" autoplay loop>
-                            <source src="assets/gif.mp4" type="video/mp4">
-                        </video></div>
+                    <div class="col-12 m-4">
+                        <!-- <video id="vid" width="200" loop autoplay>
+                            <source id="vid" src="assets/gif.mp4" type="video/mp4">
+                        </video> -->
+
+                        <img width="200" src="assets/Amaanogif.gif" alt="">
+                    </div>
 
                     <div class="col-2"><img src="assets/img/appstore.png" alt=""></div>
                     <div class="col-2"><img src="assets/img/GooglePlay.png" alt=""></div>
@@ -206,7 +210,9 @@
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script>
+        document.getElementById('vid').play();
+    </script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
